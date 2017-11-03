@@ -8,15 +8,16 @@
     	<transition name="router-fade" mode="out-in">
 			<router-view v-if="!$route.meta.keepAlive"></router-view>
 		</transition>
-		<svg-icon></svg-icon>	
+		<footer-bar/>
     </div>
 </template>
 
 <script>
 	import svgIcon from './components/common/svg';
+	import FooterBar from 'components/footer/footer'
   	export default {
     	components:{
-            svgIcon
+            svgIcon,FooterBar
         },
   	}
 
