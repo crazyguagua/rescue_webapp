@@ -36,16 +36,16 @@
       overflow: hidden;
       backface-visibility: hidden;
       transition: .2s;
-      .header {
+      &-header {
         padding: 15px 0 0;
       }
-      .content {
+      &-content {
         padding: 10px 20px 15px;
         border-bottom: 1px solid #ddd;
         min-height: 36px;
         position: relative;
       }
-      input {
+      &-input {
         padding-top: 15px;
         & input {
           border: 1px solid #dedede;
@@ -62,13 +62,13 @@
           }
         }
       }
-      errormsg {
+      &-errormsg {
         color: red;
         font-size: 12px;
         min-height: 18px;
         margin-top: 2px;
       }
-      title {
+      &-title {
         text-align: center;
         padding-left: 0;
         margin-bottom: 0;
@@ -76,13 +76,13 @@
         font-weight: bold;
         color: #333;
       }
-      message {
+      &-message {
         color: #999;
         margin: 0;
         text-align: center;
         line-height: 36px;
       }
-      btns {
+      &-btns {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -90,7 +90,7 @@
         height: 40px;
         line-height: 40px;
       }
-      btn {
+      &-btn {
         line-height: 35px;
         display: block;
         background-color: #fff;
@@ -104,14 +104,14 @@
           background-color: #fff;
         }
       }
-      cancel {
+      &-cancel {
         width: 50%;
         border-right: 1px solid #ddd;
         &:active {
           color: #000;
         }
       }
-      confirm {
+      &-confirm {
         color: #26a2ff;
         width: 50%;
         &:active {

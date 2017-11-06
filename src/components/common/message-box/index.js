@@ -153,6 +153,7 @@ var MessageBox = function(options, callback) {
 
     showNextMsg();
   }
+  console.log(msgQueue);
 };
 
 MessageBox.setDefaults = function(defaults) {
