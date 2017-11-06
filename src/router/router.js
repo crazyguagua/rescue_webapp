@@ -1,6 +1,7 @@
 import App from '../App'
 
 const home = r => require.ensure([], () => r(require('../page/home/home')), 'home')
+const RescueMap = r => require.ensure([], () => r(require('../page/rescueMap/rescueMap')), 'rescueMap')
 export default [{
     path: '/',
     component: App, //顶层路由，对应index.html
@@ -14,6 +15,10 @@ export default [{
         {
             path: '/home',
             component: home
+        },
+        {
+            path:'/rescueMap/:type',
+            component:RescueMap
         }
     ]
 }]

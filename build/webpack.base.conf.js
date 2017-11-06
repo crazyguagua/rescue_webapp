@@ -29,6 +29,7 @@ module.exports = {
             'assets': path.resolve(__dirname, '../src/assets'),
             'components': path.resolve(__dirname, '../src/components'),
             'page': path.resolve(__dirname, '../src/page'),
+            'util':path.resolve(__dirname,'../src/util'),
             'images': path.resolve(__dirname, '../src/page')
         }
     },

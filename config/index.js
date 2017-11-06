@@ -15,7 +15,8 @@ module.exports = {
         // Before setting to `true`, make sure to:
         // npm install --save-dev compression-webpack-plugin
         productionGzip: false,
-        productionGzipExtensions: ['js', 'css']
+        productionGzipExtensions: ['js', 'css'],
+        amapMapKey:'ee582b84f239b6a930fe95d7c9d26491'
     },
     dev: {
         env: {
@@ -43,6 +44,7 @@ module.exports = {
         // (https://github.com/webpack/css-loader#sourcemaps)
         // In our experience, they generally work as expected,
         // just be aware of this issue when enabling this option.
-        cssSourceMap: false
+        cssSourceMap: false,
+        amapMapKey:'ee582b84f239b6a930fe95d7c9d26491'
     }
 }

@@ -140,7 +140,6 @@
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
-    height: 150px;
     overflow: hidden;
   }
 
