@@ -61,7 +61,7 @@ export default {
   methods: {
     submit() {
     //   this.showAlert = true;
-         MessageBox(`${this.rescueTypeName}报价`, this.alertText);
+         MessageBox.confirm(`${this.rescueTypeName}报价`, this.alertText);
     },
     initAMap() {
       loadAMap().then(() => {

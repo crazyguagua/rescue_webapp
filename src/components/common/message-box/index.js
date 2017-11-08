@@ -1,6 +1,8 @@
 var CONFIRM_TEXT = '确定';
 var CANCEL_TEXT = '取消';
 
+let message_seed=0;
+let startZIndex=2000;
 var defaults = {
   title: '提示',
   message: '',
@@ -153,7 +155,6 @@ var MessageBox = function(options, callback) {
 
     showNextMsg();
   }
-  console.log(msgQueue);
 };
 
 MessageBox.setDefaults = function(defaults) {
